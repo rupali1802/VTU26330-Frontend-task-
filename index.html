@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">TaskFlow</div>
+        <div class="menu" id="menu"></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="darkBtn"></button>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>Manage Your Daily Tasks Easily</h1>
+            <p>TaskFlow helps users organize tasks and improve productivity in a simple way.</p>
+            <button class="btn">
+                Start Free Trial
+            </button>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero.jpg"
+                alt="Task Management">
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature-container">
+            <div class="card">
+                <h3>Task Tracking</h3>
+                <p>Track daily tasks easily.</p>
+            </div>
+            <div class="card">
+                <h3>Analytics</h3>
+                <p>View productivity reports.</p>
+            </div>
+            <div class="card">
+                <h3>Reminders</h3>
+                <p>Never miss deadlines.</p>
+            </div>
+            <div class="card">
+                <h3>Cloud Sync</h3>
+                <p>Access anywhere.</p>
+            </div>
+            <div class="card">
+                <h3>Team Work</h3>
+                <p>Collaborate with members.</p>
+            </div>
+            <div class="card">
+                <h3>Security</h3>
+                <p>Keep data safe and secure.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>Pricing Details</h2>
+        <div class="pricing-container">
+            <div class="price-card">
+                <h3>Starter</h3>
+                <h2>₹0</h2>
+                <p>Basic Features</p>
+            </div>
+            <div class="price-card active">
+                <h3>Professional</h3>
+                <h2>₹499</h2>
+                <p>Most Popular</p>
+            </div>
+            <div class="price-card">
+                <h3>Enterprise</h3>
+                <h2>₹999</h2>
+                <p>Advanced Features</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blogs">
+    <h2>The Latest Blog Posts</h2>
+    <p id="loading">Loading posts...</p>
+    <p id="error"></p>
+    <div id="blog-container"></div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter Name">
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter Email">
+            <textarea
+                id="message"
+                placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>TaskFlow Landing Page</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
